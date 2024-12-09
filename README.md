@@ -1,6 +1,6 @@
 # Ultimate Roadmap to Mastering Bug Bounty Hunting
 
-## Table of Contents
+### Table of Contents
 1. [Introduction](#1-introduction)  
 2. [Why Choose Bug Bounty Hunting?](#2-why-choose-bug-bounty-hunting)  
 3. [Beginner Stage](#3-beginner-stage)  
@@ -17,7 +17,7 @@
 
 ---
 
-## 1. Introduction
+### 1. Introduction
 
 Bug bounty hunting is the process of discovering security vulnerabilities in applications, websites, and systems and reporting them responsibly to earn rewards.  
 
@@ -34,7 +34,7 @@ Popular Platforms:
 
 ---
 
-## 2. Why Choose Bug Bounty Hunting?
+### 2. Why Choose Bug Bounty Hunting?
 
 - **Skill Development**: Improve your web, network, and mobile security knowledge.  
 - **Financial Opportunities**: High-paying rewards for critical vulnerabilities.  
@@ -43,7 +43,7 @@ Popular Platforms:
 
 ---
 
-## 3. Beginner Stage
+### 3. Beginner Stage
 
 ### Prerequisites:
 - **Basic Networking**: Understand TCP/IP, DNS, HTTP, and HTTPS.  
@@ -77,7 +77,7 @@ Popular Platforms:
 
 ---
 
-## 4. Intermediate Stage
+### 4. Intermediate Stage
 
 ### Focus Areas:
 1. **Advanced Vulnerabilities**:
@@ -104,7 +104,7 @@ Popular Platforms:
 
 ---
 
-## 5. Advanced Stage
+### 5. Advanced Stage
 
 ### Advanced Techniques:
 1. **Chaining Vulnerabilities**: Combine multiple low/medium severity vulnerabilities for critical impact.  
@@ -125,7 +125,7 @@ Popular Platforms:
 
 ---
 
-## 6. Specialization
+### 6. Specialization
 
 Choose an area to specialize in:  
 - **Web Application Security**: Focus on advanced web vulnerabilities.  
@@ -139,7 +139,7 @@ Certifications to Pursue:
 
 ---
 
-## 7. Building a Hacker Profile
+### 7. Building a Hacker Profile
 
 ### Platforms to Showcase Your Work:
 - [HackerOne](https://www.hackerone.com)  
@@ -152,7 +152,7 @@ Certifications to Pursue:
 
 ---
 
-## 8. Bug Reporting
+### 8. Bug Reporting
 
 ### Tips for Effective Reports:
 1. **Steps to Reproduce**: Provide detailed, reproducible steps.  
@@ -161,7 +161,7 @@ Certifications to Pursue:
 
 ---
 
-## 9. Continuous Learning
+### 9. Continuous Learning
 
 1. **Follow Security Blogs**:
    - [PortSwigger Blog](https://portswigger.net/daily-swig)  
@@ -172,7 +172,7 @@ Certifications to Pursue:
 
 ---
 
-## 10. CTFs and Practice Labs
+### 10. CTFs and Practice Labs
 
 ### Platforms:
 - [CTFtime](https://ctftime.org)  
@@ -181,7 +181,7 @@ Certifications to Pursue:
 
 ---
 
-## 11. Resources
+### 11. Resources
 
 ### Books:
 - *The Web Application Hacker's Handbook* by Dafydd Stuttard.  
@@ -193,7 +193,7 @@ Certifications to Pursue:
 
 ---
 
-## 12. Essential Tools
+### 12. Essential Tools
 
 ### Recon Tools:
 - [Sublist3r](https://github.com/aboul3la/Sublist3r)  
@@ -205,7 +205,7 @@ Certifications to Pursue:
 
 ---
 
-## 13. Timeline and Goals
+### 13. Timeline and Goals
 
 ### Timeline:
 - Beginner: 3–6 months.  
