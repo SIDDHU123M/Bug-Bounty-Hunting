@@ -1,222 +1,218 @@
-# Complete Roadmap to Mastering Bug Bounty Hunting
+# Ultimate Roadmap to Mastering Bug Bounty Hunting
 
----
-
-### Table of Contents
+## Table of Contents
 1. [Introduction](#1-introduction)  
-2. [Beginner Stage](#2-beginner-stage)  
-3. [Intermediate Stage](#3-intermediate-stage)  
-4. [Advanced Stage](#4-advanced-stage)  
-5. [Specialization](#5-specialization)  
-6. [Building a Profile](#6-building-a-profile)  
-7. [Practice and Growth](#7-practice-and-growth)  
-8. [Resources](#8-resources)  
-9. [Essential Tools](#9-essential-tools)  
-10. [Summary and Goals](#10-summary-and-goals)  
+2. [Why Choose Bug Bounty Hunting?](#2-why-choose-bug-bounty-hunting)  
+3. [Beginner Stage](#3-beginner-stage)  
+4. [Intermediate Stage](#4-intermediate-stage)  
+5. [Advanced Stage](#5-advanced-stage)  
+6. [Specialization](#6-specialization)  
+7. [Building a Hacker Profile](#7-building-a-hacker-profile)  
+8. [Bug Reporting](#8-bug-reporting)  
+9. [Continuous Learning](#9-continuous-learning)  
+10. [CTFs and Practice Labs](#10-ctfs-and-practice-labs)  
+11. [Resources](#11-resources)  
+12. [Essential Tools](#12-essential-tools)  
+13. [Timeline and Goals](#13-timeline-and-goals)  
 
 ---
 
-### 1. Introduction
+## 1. Introduction
 
-**What is Bug Bounty Hunting?**  
-Bug bounty hunting is an opportunity to uncover and responsibly disclose security vulnerabilities in exchange for recognition, monetary rewards, or both. It fosters ethical hacking practices and strengthens application defenses.
+Bug bounty hunting is the process of discovering security vulnerabilities in applications, websites, and systems and reporting them responsibly to earn rewards.  
 
-**How Bug Bounty Programs Work:**  
-- Organizations define a scope, including in-scope and out-of-scope assets.  
-- Researchers identify and responsibly report valid vulnerabilities.  
-- Rewards are issued based on severity, impact, and program policies.
+### Key Components of Bug Bounty Programs:
+1. **Scope**: Specifies the assets (websites, APIs, apps) in-scope and out-of-scope.  
+2. **Submission Guidelines**: Includes requirements for PoC (Proof of Concept).  
+3. **Reward Structure**: Based on severity (low, medium, high, critical).  
 
-**Significance:**  
-- Protects sensitive data and infrastructure.  
-- Encourages skill-building and financial opportunities for ethical hackers.
-
-**Popular Platforms:**  
-- **HackerOne**: Well-structured platform for beginners and professionals.  
-- **Bugcrowd**: Beginner-friendly with a variety of programs.  
-- **Intigriti**: Offers a hybrid model of bug bounties and pentesting.  
+Popular Platforms:  
+- [HackerOne](https://www.hackerone.com)  
+- [Bugcrowd](https://www.bugcrowd.com)  
+- [Intigriti](https://www.intigriti.com)  
+- [Synack Red Team](https://www.synack.com/red-team/)  
 
 ---
 
-### 2. Beginner Stage
+## 2. Why Choose Bug Bounty Hunting?
 
-**Prerequisites:**
-- Networking basics: TCP/IP, DNS, HTTP/HTTPS.  
-- Programming knowledge: **Python**, **JavaScript**, **Bash**.  
-- Familiarity with browser dev tools for debugging and inspecting web pages.
+- **Skill Development**: Improve your web, network, and mobile security knowledge.  
+- **Financial Opportunities**: High-paying rewards for critical vulnerabilities.  
+- **Flexibility**: Work independently and at your own pace.  
+- **Community Recognition**: Build credibility in the cybersecurity industry.  
 
-**Tools to Master:**
-- **Burp Suite (Community Edition)**: Request/response interception and testing.  
-- **OWASP ZAP**: Open-source web app scanner.  
-- **Postman**: API testing and debugging.  
+---
 
-**Key Concepts:**
-1. **OWASP Top 10**:
-   - XSS (Cross-Site Scripting)  
-   - SQL Injection  
-   - CSRF (Cross-Site Request Forgery)  
+## 3. Beginner Stage
 
+### Prerequisites:
+- **Basic Networking**: Understand TCP/IP, DNS, HTTP, and HTTPS.  
+- **Programming Knowledge**: Familiarity with Python, JavaScript, and Bash.  
+- **Understanding Web Architecture**: Client-server model, session management, cookies.  
+- **Browser DevTools**: Inspect elements, track network requests, debug JavaScript.  
+
+### Concepts to Learn:
+1. **OWASP Top 10 Vulnerabilities**:
+   - Injection (SQL, NoSQL, Command).
+   - Cross-Site Scripting (XSS).
+   - Security Misconfigurations.
+   - Insecure Deserialization.
 2. **HTTP Basics**:
-   - Methods (GET, POST, PUT).  
-   - Status codes (200, 404, 500).  
-   - Headers (e.g., Cookies, Authorization).  
+   - HTTP Methods (GET, POST, DELETE, PUT).  
+   - Status Codes (200, 301, 403, 404, 500).  
+   - Headers (Authorization, Cookies, Content-Type).  
+3. **Web Authentication**:
+   - Cookies vs. Tokens.  
+   - OAuth and SSO flows.  
 
-**Recommended Practice Platforms:**  
-- **TryHackMe**: Beginner-friendly modules.  
-- **Hack The Box**: Real-world hacking labs.  
-- **PortSwigger Web Security Academy**: Free, interactive learning.  
+### Tools to Learn:
+- **[Burp Suite (Community Edition)](https://portswigger.net/burp/community)**  
+- **[OWASP ZAP](https://owasp.org/www-project-zap/)**  
+- **[Postman](https://www.postman.com/)**  
 
----
-
-### 3. Intermediate Stage
-
-**Focus Areas:**
-1. **Advanced Vulnerabilities:**
-   - Authentication flaws.  
-   - IDOR (Insecure Direct Object References).  
-   - Race Conditions.  
-
-2. **API Testing:**  
-   - Learn API-specific vulnerabilities (BOLA, excessive data exposure).  
-   - Tools: **Postman**, **Insomnia**, **Burp Suite API Scanner**.  
-
-3. **Reconnaissance:**  
-   - Enumerate subdomains and services using **Amass**, **Sublist3r**, and **Assetfinder**.  
-   - Use **httpx** for HTTP probing.  
-
-**Mobile App Security:**  
-- Decompile Android APKs and analyze iOS apps.  
-- Learn tools like **Frida**, **APKTool**, and **MobSF**.  
-
-**Recommended Labs:**  
-- **OWASP Juice Shop**: Practice exploiting common vulnerabilities.  
-- **VulnHub**: Vulnerable machines for testing.
+### Hands-On Platforms:
+- [PortSwigger Academy](https://portswigger.net/web-security)  
+- [TryHackMe](https://tryhackme.com/) (Rooms: Web Exploitation Basics, Burp Suite Basics)  
+- [Hack The Box](https://www.hackthebox.com)  
 
 ---
 
-### 4. Advanced Stage
+## 4. Intermediate Stage
 
-**Advanced Techniques:**
-- **SSRF (Server-Side Request Forgery)**.  
-- **RCE (Remote Code Execution)**.  
-- **Chaining vulnerabilities for advanced exploits**.  
+### Focus Areas:
+1. **Advanced Vulnerabilities**:
+   - Business Logic Flaws.  
+   - Insecure Direct Object References (IDOR).  
+   - Authentication and Session Mismanagement.  
+2. **Reconnaissance Techniques**:
+   - Enumerating subdomains and DNS records.  
+   - Identifying services and open ports.  
+   - Finding sensitive files (robots.txt, backup files).  
+3. **API Testing**:
+   - Learn API-specific vulnerabilities: BOLA, excessive data exposure.  
+   - Tools: Postman, Burp Suite Pro.  
 
-**Reverse Engineering:**  
-- Analyze binaries and hunt vulnerabilities.  
-- Tools:  
-  - **Ghidra** (Free).  
-  - **IDA Pro**.  
-  - **Radare2**.  
+### Tools to Master:
+- **[Amass](https://github.com/OWASP/Amass)** (Subdomain enumeration)  
+- **[httpx](https://github.com/projectdiscovery/httpx)** (HTTP probing)  
+- **[SQLMap](https://sqlmap.org/)** (Automated SQL injection testing)  
+- **[Dirbuster](https://www.kali.org/tools/dirbuster/)** (Directory brute-forcing)  
 
-**Specialized Recon Tools:**  
-- **Shodan**: For IoT devices and exposed services.  
-- **Censys**: Scan for vulnerable internet-facing assets.
-
----
-
-### 5. Specialization
-
-**Focus Areas:**
-- **Web Security Specialization**: Advanced understanding of web vulnerabilities.  
-- **Mobile App Pentesting**: Analyzing Android and iOS vulnerabilities.  
-- **IoT Security**: Hardware exploitation and firmware analysis.  
-
-**Certifications:**  
-- **OSCP**: Practical offensive security.  
-- **CEH**: Focuses on industry basics.  
-- **PNPT**: Network pentesting focus.  
+### Recommended Labs:
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)  
+- [Damn Vulnerable Web Application (DVWA)](https://dvwa.co.uk/)  
 
 ---
 
-### 6. Building a Profile
+## 5. Advanced Stage
 
-**Platforms:**  
-- Use **HackerOne**, **Bugcrowd**, or **Intigriti** to showcase reports.  
-- Build a **GitHub portfolio** with tools and writeups.  
+### Advanced Techniques:
+1. **Chaining Vulnerabilities**: Combine multiple low/medium severity vulnerabilities for critical impact.  
+2. **Server-Side Exploits**:
+   - SSRF (Server-Side Request Forgery).  
+   - RCE (Remote Code Execution).  
+3. **Reverse Engineering**:
+   - Decompile applications and analyze code for logic flaws.  
 
-**Writing Reports:**  
-- Clear, reproducible steps.  
-- Proof of Concept (PoC) and impact analysis.  
+### Tools for Reverse Engineering:
+- **[Ghidra](https://ghidra-sre.org/)**  
+- **[Radare2](https://github.com/radareorg/radare2)**  
+- **[Frida](https://frida.re/)** (Dynamic instrumentation toolkit)  
 
----
-
-### 7. Practice and Growth
-
-**CTFs (Capture The Flags):**
-- **CTFtime**: List of global CTFs.  
-- **Hacker101**: CTFs to earn invites to private programs.  
-
-**Continuous Learning:**  
-- Follow **Google Project Zero** and HackerOne’s **Hacktivity** for updates.  
-- Track new vulnerabilities via **CVE Details**.  
+### Specialized Recon Tools:
+- **[Shodan](https://www.shodan.io/)**  
+- **[Censys](https://censys.io/)**  
 
 ---
 
-### 8. Resources
+## 6. Specialization
 
-**Books:**  
+Choose an area to specialize in:  
+- **Web Application Security**: Focus on advanced web vulnerabilities.  
+- **Mobile Security**: Pentesting Android/iOS apps using tools like APKTool, MobSF.  
+- **IoT Security**: Exploiting hardware devices and firmware.  
+
+Certifications to Pursue:  
+- **[OSCP](https://www.offensive-security.com/pwk-oscp/)**  
+- **[CEH](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)**  
+- **[PNPT](https://certifications.tcm-sec.com/pnpt/)**  
+
+---
+
+## 7. Building a Hacker Profile
+
+### Platforms to Showcase Your Work:
+- [HackerOne](https://www.hackerone.com)  
+- [Bugcrowd](https://www.bugcrowd.com)  
+- [GitHub](https://github.com)  
+
+### What to Include:
+- Vulnerability write-ups.  
+- Tools/scripts you’ve created.  
+
+---
+
+## 8. Bug Reporting
+
+### Tips for Effective Reports:
+1. **Steps to Reproduce**: Provide detailed, reproducible steps.  
+2. **Proof of Concept (PoC)**: Include screenshots, videos, or scripts.  
+3. **Impact Analysis**: Explain the real-world consequences of the vulnerability.  
+
+---
+
+## 9. Continuous Learning
+
+1. **Follow Security Blogs**:
+   - [PortSwigger Blog](https://portswigger.net/daily-swig)  
+   - [HackerOne Hacktivity](https://hackerone.com/hacktivity)  
+2. **Monitor Vulnerabilities**:
+   - [CVE Details](https://www.cvedetails.com/)  
+   - [Google Project Zero](https://googleprojectzero.blogspot.com/)  
+
+---
+
+## 10. CTFs and Practice Labs
+
+### Platforms:
+- [CTFtime](https://ctftime.org)  
+- [PicoCTF](https://picoctf.org/)  
+- [Hacker101 CTF](https://www.hacker101.com/ctf)  
+
+---
+
+## 11. Resources
+
+### Books:
 - *The Web Application Hacker's Handbook* by Dafydd Stuttard.  
 - *Hacking: The Art of Exploitation* by Jon Erickson.  
 
-**Blogs:**  
-- **PortSwigger Blog**: Web security.  
-- **HackerOne Blog**: Real bug reports.  
-
-**Tools:**  
-- **Recon-ng**: Recon framework.  
-- **SQLMap**: SQL Injection automation.  
+### Video Tutorials:
+- [Bugcrowd University](https://www.bugcrowd.com/resource/bugcrowd-university/)  
+- [LiveOverflow](https://www.youtube.com/@LiveOverflow)  
 
 ---
 
-### 9. Essential Tools
+## 12. Essential Tools
 
-**Recon Tools:**
-- **Sublist3r**: A tool designed to enumerate subdomains of websites using OSINT.
-- **Amass**: A powerful tool for in-depth DNS enumeration and network mapping.
-- **Assetfinder**: A tool that finds related domains and subdomains for a given domain.
-- **Recon-ng**: A full-featured web reconnaissance framework written in Python.
-- **theHarvester**: A tool for gathering emails, subdomains, hosts, employee names, open ports, and banners from different public sources.
+### Recon Tools:
+- [Sublist3r](https://github.com/aboul3la/Sublist3r)  
+- [theHarvester](https://github.com/laramies/theHarvester)  
 
-**Scanning Tools:**
-- **Nikto**: A web server scanner that performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs.
-- **Nmap**: A network scanning tool used to discover hosts and services on a computer network by sending packets and analyzing the responses.
-- **DirBuster**: A multi-threaded Java application designed to brute force directories and files on web/application servers.
-- **OWASP ZAP**: An open-source web application security scanner.
-
-**Exploitation Tools:**
-- **Metasploit**: A penetration testing framework that helps you find, exploit, and validate vulnerabilities.
-- **John the Ripper**: A fast password cracker, currently available for many flavors of Unix, Windows, DOS, BeOS, and OpenVMS.
-- **Hydra**: A parallelized login cracker which supports numerous protocols to attack.
-- **SQLMap**: An open-source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws.
-
-**API Tools:**  
-- **Postman**: A collaboration platform for API development, which simplifies each step of building an API and streamlines collaboration.
-- **Insomnia**: A powerful HTTP and GraphQL client with cookie management, environment variables, code generation, and authentication for Mac, Windows, and Linux.
-- **Burp Suite API Scanner**: A tool within Burp Suite that allows for automated scanning of API endpoints to find security vulnerabilities.
-
-**Mobile App Security Tools:**
-- **Frida**: A dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
-- **APKTool**: A tool for reverse engineering Android APK files, allowing you to decode resources to nearly original form and rebuild them after making some modifications.
-- **MobSF (Mobile Security Framework)**: An automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis, and security assessment framework capable of performing static and dynamic analysis.
-
-**Reverse Engineering Tools:**
-- **Ghidra**: A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission.
-- **IDA Pro**: A multi-processor disassembler and debugger hosted on Windows, Linux, or Mac OS X.
-- **Radare2**: An open-source software framework for reverse engineering and analyzing binaries.
-
-**Specialized Recon Tools:**
-- **Shodan**: A search engine for Internet-connected devices, allowing you to find specific types of computers (webcams, routers, servers, etc.) connected to the internet using a variety of filters.
-- **Censys**: A search engine that allows researchers to ask questions about the hosts and networks that compose the Internet. 
+### Exploitation Tools:
+- [Metasploit](https://www.metasploit.com/)  
+- [John the Ripper](https://www.openwall.com/john/)  
 
 ---
 
-### 10. Summary and Goals
+## 13. Timeline and Goals
 
-**Timeline:**  
+### Timeline:
 - Beginner: 3–6 months.  
 - Intermediate: 6–12 months.  
 - Advanced: Continuous improvement.  
 
-**Goals:**  
-- Submit 10 valid reports in 12 months.  
-- Build an automation script.  
-- Earn certifications like OSCP or eJPT.
+### Goals:
+- Submit 10 valid bug reports in 12 months.  
+- Build a custom automation tool/script.  
+- Earn a certification like OSCP or eJPT.
